@@ -1,0 +1,66 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="14dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp"
+    android:orientation="vertical"
+    android:padding="18dp">
+
+    <TextView
+        android:id="@+id/tvNombreClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Club"
+        android:textColor="@color/negro"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDireccionClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Dirección"
+        android:textColor="@color/negro"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvTelefonoClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Teléfono"
+        android:textColor="@color/negro"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvNombrePista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Pista"
+        android:textColor="@color/negro"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEliminarPista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/rojo"
+        android:text="Eliminar pista"
+        android:textColor="@color/blanco" />
+
+    <Button
+        android:id="@+id/btnEliminarClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/rojo"
+        android:text="Eliminar club"
+        android:textColor="@color/blanco" />
+
+</LinearLayout>
